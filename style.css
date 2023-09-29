@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.719)), url(./1323308.png);
+  background-attachment:fixed ;
+  color: rgb(241, 241, 241);
+  overflow: hidden;
+}
+.app {
+  width: 100vw;
+  background: rgb(0, 0, 0);
+  border-radius: 14px;
+  padding: 40px;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.307);
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 10px;
+  
+}
+
+#content {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+img  {
+  height: 210px;
+  width: 270px; 
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+.bubble-text{
+  background:rgb(255, 255, 255); 
+  color:#000000; 
+  padding:15px 15px; 
+  border-radius:3px; 
+  width:350px;
+  display: none;
+  height: 80px;
+  font-size: 1.1em;
+  position: absolute;
+  margin-left: 30px;
+  margin-bottom: 200px;
+}
+
+.bubble-text::after{
+content:""; 
+border-left:20px solid transparent;
+border-right:20px solid transparent;
+border-top: 20px solid rgb(255, 255, 255);
+position: absolute;
+}
+
+#bubble {
+  display: flex;
+  flex-direction: column-reverse;
+} 
+
+#click {
+  font-size: 0.5em;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#button  {
+  background-image: url('./Coisg7-WYAASngf-removebg-preview.png');
+  background-size: contain;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 0;
+}
+
+#button:hover {
+  transform: scale(1.30);
+  transition: 0.2s;
+}
+
+.app:hover {
+  transform: scale(1.00);
+}
