@@ -42,6 +42,7 @@ function box() {
 
 joke();
 
+// changer de blague
 button.addEventListener("click", joke);
 
 img.addEventListener("click", () =>  { 
