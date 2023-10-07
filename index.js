@@ -22,6 +22,7 @@ fetch("https://api.blablagues.net/?rub=blagues")
 });
 };
 
+//boite de dialogue
 function box() {
     bubble.style.display = "block";
     text.textContent = "Mais pas la! il faut cliquer plus bas sur Kenny!";
